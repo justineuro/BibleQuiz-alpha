@@ -18,6 +18,7 @@ function addTopicsTable(pairedTopicsList) {
 			console.log(pairs);
 		}
 	}
+	document.getElementById('table1').innerHTML += '<caption><center><h4>Please choose a topic:</h4><center></caption><tbody id=' + "'" + 'table1Body' + "'" + '></tbody>';
 	for (var i = 0; i < pairedTopicsList.length/3; i++) {
 		console.log(pairedTopicsList.length/3);
 		var rowContent = '';
